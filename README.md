@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/GeloZP/WordleCAT"><img src="https://github.com/GeloZP/WordleCAT/blob/main/img/wordle_logo_512x512.png?raw=true" width="125" ></a>
+  <img src="img/wordle_logo_512x512.png" width="125" >
 </p>
 
 <span align="center">
