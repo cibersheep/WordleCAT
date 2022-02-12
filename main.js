@@ -2603,7 +2603,7 @@ this.wordle = this.wordle || {},
                                         n = s.disabled;
                                     switch (t) {
                                         case "hard-mode":
-                                            return void(n ? e.addToast("El mode guiat només pot ser activat a l'inici de la partida", 1500, !0) : (e.hardMode = o,
+                                            return void(n ? e.addToast("El mode guiat només es pot activar a l'inici de la partida", 1500, !0) : (e.hardMode = o,
                                                 ja({
                                                     hardMode: o
                                                 })))
@@ -2709,7 +2709,7 @@ this.wordle = this.wordle || {},
         var ds = [
                 ["q", "w", "e", "r", "t", "y", "u", "i", "o", "p"],
                 ["a", "s", "d", "f", "g", "h", "j", "k", "l", "ç"],
-                ["↵", "z", "x", "c", "v", "b", "n", "m", "←"]
+                ["←", "z", "x", "c", "v", "b", "n", "m", "↵"]
             ],
             us = function (e) {
                 r(t, e);
