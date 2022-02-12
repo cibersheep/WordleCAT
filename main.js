@@ -2430,7 +2430,7 @@ this.wordle = this.wordle || {},
                                                 if ((r[i] || 0) < o[i])
                                                     return {
                                                         validGuess: !1,
-                                                        errorMessage: "La paraula ha de tenir la llatra ".concat(i.toUpperCase())
+                                                        errorMessage: "La paraula ha de tenir la lletra ".concat(i.toUpperCase())
                                                     };
                                             return {
                                                 validGuess: !0
@@ -2520,7 +2520,7 @@ this.wordle = this.wordle || {},
                             if (this.gameStatus === Za && this.canInput) {
                                 if (5 !== this.tileIndex)
                                     return this.$board.querySelectorAll("game-row")[this.rowIndex].setAttribute("invalid", ""),
-                                        void this.addToast("Not enough letters");
+                                        void this.addToast("Mot massa curt");
                                 this.evaluateRow()
                             }
                         }
