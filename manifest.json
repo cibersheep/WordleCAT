@@ -1,0 +1,26 @@
+{
+    "short_name": "WordleCAT",
+    "name": "WordleCAT",
+    "icons": [
+        {
+            "src": "img/wordle_logo_32x32.png",
+            "type": "image/png",
+            "sizes": "32x32"
+        },
+        {
+            "src": "img/wordle_logo_192x192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "img/wordle_logo_512x512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "start_url": "https://gelozp.com/games/wordle/",
+    "background_color": "#6aaa64",
+    "display": "standalone",
+    "theme_color": "#6aaa64",
+    "description": "Un mot diari"
+}
